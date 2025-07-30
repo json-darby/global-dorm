@@ -1,0 +1,319 @@
+{ 
+  "rooms": [ 
+    {
+      "id": 1,
+      "name": "Cozy Room in Shared House",
+      "location": {
+        "city": "Nottingham",
+        "county": "Nottinghamshire",
+        "postcode": "NG1 5AA"
+      },
+      "details": {
+        "furnished": true,
+        "amenities": ["WiFi", "Heating", "Kitchen"],
+        "live_in_landlord": false,
+        "shared_with": 3,
+        "bills_included": true,
+        "bathroom_shared": true
+      },
+      "price_per_month_gbp": 500,
+      "availability_date": "2024-07-01",
+      "spoken_languages": ["English", "Spanish"],
+      "is_available": true
+    },
+    {
+      "id": 2,
+      "name": "Spacious Room in Modern Apartment",
+      "location": {
+        "city": "London",
+        "county": "Greater London",
+        "postcode": "E1 6AN"
+      },
+      "details": {
+        "furnished": true,
+        "amenities": ["WiFi", "Gym", "Laundry"],
+        "live_in_landlord": false,
+        "shared_with": 2,
+        "bills_included": false,
+        "bathroom_shared": false
+      },
+      "price_per_month_gbp": 850,
+      "availability_date": "2024-08-15",
+      "spoken_languages": ["English", "French"],
+      "is_available": true
+    },
+    {
+      "id": 3,
+      "name": "Affordable Room in Friendly House",
+      "location": {
+        "city": "Manchester",
+        "county": "Greater Manchester",
+        "postcode": "M1 2AB"
+      },
+      "details": {
+        "furnished": true,
+        "amenities": ["WiFi", "Heating", "Garden"],
+        "live_in_landlord": true,
+        "shared_with": 4,
+        "bills_included": true,
+        "bathroom_shared": true
+      },
+      "price_per_month_gbp": 450,
+      "availability_date": "2024-06-01",
+      "spoken_languages": ["English", "Mandarin"],
+      "is_available": true
+    },
+    {
+      "id": 4,
+      "name": "Luxury Room in Central Location",
+      "location": {
+        "city": "Edinburgh",
+        "county": "Midlothian",
+        "postcode": "EH1 1BB"
+      },
+      "details": {
+        "furnished": true,
+        "amenities": ["WiFi", "Heating", "Parking"],
+        "live_in_landlord": false,
+        "shared_with": 1,
+        "bills_included": false,
+        "bathroom_shared": false
+      },
+      "price_per_month_gbp": 950,
+      "availability_date": "2024-09-01",
+      "spoken_languages": ["English"],
+      "is_available": true
+    },
+    {
+      "id": 5,
+      "name": "Quiet Room in Suburban House",
+      "location": {
+        "city": "Bristol",
+        "county": "Bristol",
+        "postcode": "BS1 5TR"
+      },
+      "details": {
+        "furnished": false,
+        "amenities": ["WiFi", "Heating", "Parking"],
+        "live_in_landlord": true,
+        "shared_with": 2,
+        "bills_included": true,
+        "bathroom_shared": true
+      },
+      "price_per_month_gbp": 600,
+      "availability_date": "2024-05-15",
+      "spoken_languages": ["English", "Italian"],
+      "is_available": true
+    },
+    {
+      "id": 6,
+      "name": "Bright Room in Central London",
+      "location": {
+        "city": "London",
+        "county": "Greater London",
+        "postcode": "W1D 6AU"
+      },
+      "details": {
+        "furnished": true,
+        "amenities": ["WiFi", "Heating", "Dishwasher"],
+        "live_in_landlord": false,
+        "shared_with": 1,
+        "bills_included": false,
+        "bathroom_shared": false
+      },
+      "price_per_month_gbp": 1200,
+      "availability_date": "2024-10-01",
+      "spoken_languages": ["English", "Spanish"],
+      "is_available": true
+    },
+    {
+      "id": 7,
+      "name": "Comfortable Room in Family House",
+      "location": {
+        "city": "Oxford",
+        "county": "Oxfordshire",
+        "postcode": "OX1 4AA"
+      },
+      "details": {
+        "furnished": true,
+        "amenities": ["WiFi", "Heating", "Garden"],
+        "live_in_landlord": true,
+        "shared_with": 3,
+        "bills_included": true,
+        "bathroom_shared": true
+      },
+      "price_per_month_gbp": 700,
+      "availability_date": "2024-06-15",
+      "spoken_languages": ["English", "German"],
+      "is_available": true
+    },
+    {
+      "id": 8,
+      "name": "Room in Modern Flatshare",
+      "location": {
+        "city": "Birmingham",
+        "county": "West Midlands",
+        "postcode": "B3 2FD"
+      },
+      "details": {
+        "furnished": true,
+        "amenities": ["WiFi", "Gym", "Laundry"],
+        "live_in_landlord": false,
+        "shared_with": 4,
+        "bills_included": false,
+        "bathroom_shared": true
+      },
+      "price_per_month_gbp": 750,
+      "availability_date": "2024-07-01",
+      "spoken_languages": ["English"],
+      "is_available": true
+    },
+    {
+      "id": 9,
+      "name": "Large Room in Converted Loft",
+      "location": {
+        "city": "Leeds",
+        "county": "West Yorkshire",
+        "postcode": "LS1 2JB"
+      },
+      "details": {
+        "furnished": true,
+        "amenities": ["WiFi", "Heating", "Washing Machine"],
+        "live_in_landlord": false,
+        "shared_with": 2,
+        "bills_included": true,
+        "bathroom_shared": true
+      },
+      "price_per_month_gbp": 800,
+      "availability_date": "2024-08-01",
+      "spoken_languages": ["English"],
+      "is_available": true
+    },
+    {
+      "id": 10,
+      "name": "Cozy Room in Seaside Cottage",
+      "location": {
+        "city": "Brighton",
+        "county": "East Sussex",
+        "postcode": "BN1 2JG"
+      },
+      "details": {
+        "furnished": true,
+        "amenities": ["WiFi", "Heating", "Parking"],
+        "live_in_landlord": false,
+        "shared_with": 1,
+        "bills_included": true,
+        "bathroom_shared": false
+      },
+      "price_per_month_gbp": 950,
+      "availability_date": "2024-07-01",
+      "spoken_languages": ["English"],
+      "is_available": true
+    },
+    {
+      "id": 11,
+      "name": "Greasy Room in Neglected Apartment",
+      "location": {
+        "city": "Liverpool",
+        "county": "Merseyside",
+        "postcode": "L1 4AB"
+      },
+      "details": {
+        "furnished": false,
+        "amenities": ["WiFi", "Heating (faulty)"],
+        "live_in_landlord": true,
+        "shared_with": 5,
+        "bills_included": false,
+        "bathroom_shared": true
+      },
+      "price_per_month_gbp": 300,
+      "availability_date": "2024-06-15",
+      "spoken_languages": ["English"],
+      "is_available": true
+    },
+    {
+      "id": 12,
+      "name": "Dirty Basement Room in Dilapidated House",
+      "location": {
+        "city": "Glasgow",
+        "county": "Lanarkshire",
+        "postcode": "G1 3AA"
+      },
+      "details": {
+        "furnished": false,
+        "amenities": ["WiFi"],
+        "live_in_landlord": true,
+        "shared_with": 6,
+        "bills_included": true,
+        "bathroom_shared": true
+      },
+      "price_per_month_gbp": 250,
+      "availability_date": "2024-07-01",
+      "spoken_languages": ["English", "Spanish"],
+      "is_available": true
+    },
+    {
+      "id": 13,
+      "name": "Beautiful Room in Victorian House",
+      "location": {
+        "city": "Bath",
+        "county": "Somerset",
+        "postcode": "BA1 1AA"
+      },
+      "details": {
+        "furnished": true,
+        "amenities": ["WiFi", "Heating", "Garden"],
+        "live_in_landlord": false,
+        "shared_with": 2,
+        "bills_included": true,
+        "bathroom_shared": false
+      },
+      "price_per_month_gbp": 850,
+      "availability_date": "2024-07-01",
+      "spoken_languages": ["English", "French"],
+      "is_available": true
+    },
+    {
+      "id": 14,
+      "name": "Futuristic Room in Eco-Friendly Building",
+      "location": {
+        "city": "Cambridge",
+        "county": "Cambridgeshire",
+        "postcode": "CB1 1BB"
+      },
+      "details": {
+        "furnished": true,
+        "amenities": ["WiFi", "Smart Home Features", "Solar Power"],
+        "live_in_landlord": false,
+        "shared_with": 1,
+        "bills_included": false,
+        "bathroom_shared": false
+      },
+      "price_per_month_gbp": 1200,
+      "availability_date": "2024-08-01",
+      "spoken_languages": ["English", "German"],
+      "is_available": true
+    },
+    {
+      "id": 15,
+      "name": "Posh Room in Luxury Penthouse",
+      "location": {
+        "city": "London",
+        "county": "Greater London",
+        "postcode": "SW1A 1AA"
+      },
+      "details": {
+        "furnished": true,
+        "amenities": ["WiFi", "Gym", "Private Balcony"],
+        "live_in_landlord": false,
+        "shared_with": 0,
+        "bills_included": true,
+        "bathroom_shared": false
+      },
+      "price_per_month_gbp": 2500,
+      "availability_date": "2024-09-01",
+      "spoken_languages": ["English", "Italian"],
+      "is_available": true
+    }
+  ]
+}

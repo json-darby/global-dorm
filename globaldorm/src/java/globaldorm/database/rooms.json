@@ -1,0 +1,104 @@
+{ 
+  "rooms": [ 
+    {
+      "id": 1,
+      "name": "Cozy Room in Shared House",
+      "location": {
+        "city": "Nottingham",
+        "county": "Nottinghamshire",
+        "postcode": "NG1 5AA"
+      },
+      "details": {
+        "furnished": true,
+        "amenities": ["WiFi", "Heating", "Kitchen"],
+        "live_in_landlord": false,
+        "shared_with": 3,
+        "bills_included": true,
+        "bathroom_shared": true
+      },
+      "price_per_month_gbp": 500,
+      "availability_date": "2024-07-01",
+      "spoken_languages": ["English", "Spanish"]
+    },
+    {
+      "id": 2,
+      "name": "Spacious Room in Modern Apartment",
+      "location": {
+        "city": "London",
+        "county": "Greater London",
+        "postcode": "E1 6AN"
+      },
+      "details": {
+        "furnished": true,
+        "amenities": ["WiFi", "Gym", "Laundry"],
+        "live_in_landlord": false,
+        "shared_with": 2,
+        "bills_included": false,
+        "bathroom_shared": false
+      },
+      "price_per_month_gbp": 850,
+      "availability_date": "2024-08-15",
+      "spoken_languages": ["English", "French"]
+    },
+    {
+      "id": 3,
+      "name": "Affordable Room in Friendly House",
+      "location": {
+        "city": "Manchester",
+        "county": "Greater Manchester",
+        "postcode": "M1 2AB"
+      },
+      "details": {
+        "furnished": true,
+        "amenities": ["WiFi", "Heating", "Garden"],
+        "live_in_landlord": true,
+        "shared_with": 4,
+        "bills_included": true,
+        "bathroom_shared": true
+      },
+      "price_per_month_gbp": 450,
+      "availability_date": "2024-06-01",
+      "spoken_languages": ["English", "Mandarin"]
+    },
+    {
+      "id": 4,
+      "name": "Luxury Room in Central Location",
+      "location": {
+        "city": "Edinburgh",
+        "county": "Midlothian",
+        "postcode": "EH1 1BB"
+      },
+      "details": {
+        "furnished": true,
+        "amenities": ["WiFi", "Heating", "Parking"],
+        "live_in_landlord": false,
+        "shared_with": 1,
+        "bills_included": false,
+        "bathroom_shared": false
+      },
+      "price_per_month_gbp": 950,
+      "availability_date": "2024-09-01",
+      "spoken_languages": ["English"]
+    },
+    {
+      "id": 5,
+      "name": "Quiet Room in Suburban House",
+      "location": {
+        "city": "Bristol",
+        "county": "Bristol",
+        "postcode": "BS1 5TR"
+      },
+      "details": {
+        "furnished": false,
+        "amenities": ["WiFi", "Heating", "Parking"],
+        "live_in_landlord": true,
+        "shared_with": 2,
+        "bills_included": true,
+        "bathroom_shared": true
+      },
+      "price_per_month_gbp": 600,
+      "availability_date": "2024-05-15",
+      "spoken_languages": ["English", "Italian"]
+    }
+  ]
+}
